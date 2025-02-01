@@ -131,8 +131,8 @@ assimp
 ast-grep
 astgen
 astro
-astroterm
 astrometry-net
+astroterm
 astyle
 asuka
 asymptote
@@ -1061,6 +1061,7 @@ freexl
 frei0r
 fribidi
 frizbee
+frotz
 frozen
 frpc
 frps

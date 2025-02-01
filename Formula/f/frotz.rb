@@ -1,10 +1,9 @@
 class Frotz < Formula
   desc "Infocom-style interactive fiction player"
   homepage "https://661.org/proj/if/frotz/"
-  url "https://gitlab.com/DavidGriffith/frotz/-/archive/2.54/frotz-2.54.tar.bz2"
-  sha256 "756d7e11370c9c8e61573e350e2a5071e77fd2781be74c107bd432f817f3abc7"
+  url "https://gitlab.com/DavidGriffith/frotz/-/archive/2.55/frotz-2.55.tar.bz2"
+  sha256 "235a8606aa1e654aa5a5a41b5c7b5ae1e934aab30fb2e2b18e2e35a4eafcd745"
   license "GPL-2.0-or-later"
-  revision 1
   head "https://gitlab.com/DavidGriffith/frotz.git", branch: "master"
 
   bottle do
@@ -36,7 +35,7 @@ class Frotz < Formula
   uses_from_macos "zlib"
 
   resource("testdata") do
-    url "https://gitlab.com/DavidGriffith/frotz/-/raw/2.53/src/test/etude/etude.z5"
+    url "https://gitlab.com/DavidGriffith/frotz/-/raw/2.55/src/test/etude/etude.z5"
     sha256 "bfa2ef69f2f5ce3796b96f9b073676902e971aedb3ba690b8835bb1fb0daface"
   end
 

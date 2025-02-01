@@ -14,7 +14,10 @@ class Tart < Formula
   end
 
   # https://tart.run/blog/2023/02/11/changing-tart-license/
-  deprecate! date: "2024-09-16", because: "switched to a DFSG-incompatible license"
+  # Original deprecation date: 2024-09-16
+  disable! date:        "2025-02-28",
+           because:     "switched to a DFSG-incompatible license; consider upstream tap if you accept new license",
+           replacement: "cirruslabs/cli/tart"
 
   depends_on maximum_macos: [:sonoma, :build]
   depends_on "rust" => :build

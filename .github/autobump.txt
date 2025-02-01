@@ -131,8 +131,8 @@ assimp
 ast-grep
 astgen
 astro
-astroterm
 astrometry-net
+astroterm
 astyle
 asuka
 asymptote
@@ -1009,6 +1009,7 @@ flashrom
 flatbuffers
 flawz
 fleet-cli
+flexiblas
 flint
 flit
 flix

@@ -1,8 +1,8 @@
 class Flexiblas < Formula
   desc "BLAS and LAPACK wrapper library with runtime exchangable backends"
   homepage "https://www.mpi-magdeburg.mpg.de/projects/flexiblas"
-  url "https://csc.mpi-magdeburg.mpg.de/mpcsc/software/flexiblas/flexiblas-3.4.4.tar.xz"
-  sha256 "f3b4db7175f00434b1ad1464c0fd004f9b9ddf4ef8d78de5a75382a1f73a75dd"
+  url "https://csc.mpi-magdeburg.mpg.de/mpcsc/software/flexiblas/flexiblas-3.4.5.tar.xz"
+  sha256 "626b698bb73877019d64cf258f853885d28d3c6ac820ccd2c1a77fb7542a34a0"
   license all_of: [
     "LGPL-3.0-or-later",
     "LGPL-2.1-or-later", # libcscutils/
